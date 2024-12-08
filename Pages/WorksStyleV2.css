@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Kaboom';
+    src: url(Fonts/KABOOM.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cheri';
+    src: url(Fonts/CHERI___.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'Halo Dek';
+    src: url(Fonts/Halo\ Dek.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Namaku';
+    src: url(Fonts/Namaku.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ToonyLine';
+    src: url(Fonts/ToonyLineFill_PERSONAL_USE_ONLY.otf) format('truetype');
+}
+
+
+    .navbar ul{
+        list-style-type: none;
+        background-color: #76b6ed;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden
+    }
+
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar a:hover{
+        background-color: #6296c4;
+    }
+
+    .navbar li{
+        float: right;
+
+    }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kaboom", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+}
+
+
+.container {
+scroll-snap-type: y mandatory;
+overflow-y: scroll;
+height: 100vh;
+
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+      }
+
+      .one {
+        background-image: url(WORKS\ PAGE\ \(v2\).png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+      }
+
+      .two {
+        background-image: url(Works\ page\ 2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+      }
+
+      .container-slider {
+        padding: 5.5rem;
+      }
+
+      .slider-wrapper{
+        position: relative;
+        max-width: 48rem;
+        margin: 0 auto;
+      }
+
+      .slider {
+        display: flex;
+        aspect-ratio: 16 / 9;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow: 0, 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+        box-shadow: 20px 20px 40px black;
+        border-radius: 55px;
+      }
+      
+
+      .slider img{
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
+
+      }
+
+      .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1; 
+      }
+
+      .slider-nav a {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: white;
+        opacity: 60%;
+        transition: opacity ease 250ms;
+
+      }
+
+      .slider-nav a:hover {
+        opacity: 100%;
+
+      }
+
+      img{
+        border-radius: 55px;
+        
+              }
+
+           
+
+
+
+  
+    
+
+  
+ 
